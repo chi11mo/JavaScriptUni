@@ -6,12 +6,7 @@
 // Funktion um primzahlen zu finden
 function isPrim(zahl){
    
-        if ( zahl < 2)
-        return false;
-
-        if(zahl % 2 == 0){
-            return false;
-        }
+        
         for( let i = 3; i <= Math.sqrt(  zahl  ); i += 2 )
         {
             if( zahl % i == 0 )
@@ -19,7 +14,7 @@ function isPrim(zahl){
                 return false;
             }
         }
-        return true;
+        return zahl>2 && zahl%2!=0;
     
 }
 // Entschluesselner text
