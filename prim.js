@@ -14,7 +14,8 @@ function isPrim(zahl){
                 return false;
             }
         }
-        return zahl>2 && zahl%2!=0;
+        // Nur true Wenn Zahl nicht durch 2 teilbar und groesser wie 2.
+        return zahl > 2 && zahl % 2 !=  0;
     
 }
 // Entschluesselner text
