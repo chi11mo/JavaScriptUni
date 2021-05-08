@@ -25,7 +25,7 @@ let counter = 0;
 // jeweilige Catalan Nummer
 let catalanNumber = 0;
 // Bis welche Stelle soll berechnet werden
-let numberLength = 6;
+let numberLength = 16;
 
 
 while(catalanNumber.toString().length < numberLength){
